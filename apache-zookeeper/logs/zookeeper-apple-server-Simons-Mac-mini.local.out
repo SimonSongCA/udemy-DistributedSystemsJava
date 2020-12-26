@@ -1,106 +1,105 @@
-2020-12-23 23:42:27,588 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../conf/zoo.cfg
-2020-12-23 23:42:27,600 [myid:] - INFO  [main:QuorumPeerConfig@460] - clientPortAddress is 0.0.0.0:2181
-2020-12-23 23:42:27,600 [myid:] - INFO  [main:QuorumPeerConfig@464] - secureClientPort is not set
-2020-12-23 23:42:27,600 [myid:] - INFO  [main:QuorumPeerConfig@480] - observerMasterPort is not set
-2020-12-23 23:42:27,602 [myid:] - INFO  [main:QuorumPeerConfig@497] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
-2020-12-23 23:42:27,606 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
-2020-12-23 23:42:27,607 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
-2020-12-23 23:42:27,607 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
-2020-12-23 23:42:27,607 [myid:] - WARN  [main:QuorumPeerMain@138] - Either no config or no quorum defined in config, running in standalone mode
-2020-12-23 23:42:27,611 [myid:] - INFO  [main:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
-2020-12-23 23:42:27,624 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../conf/zoo.cfg
-2020-12-23 23:42:27,625 [myid:] - INFO  [main:QuorumPeerConfig@460] - clientPortAddress is 0.0.0.0:2181
-2020-12-23 23:42:27,625 [myid:] - INFO  [main:QuorumPeerConfig@464] - secureClientPort is not set
-2020-12-23 23:42:27,625 [myid:] - INFO  [main:QuorumPeerConfig@480] - observerMasterPort is not set
-2020-12-23 23:42:27,625 [myid:] - INFO  [main:QuorumPeerConfig@497] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
-2020-12-23 23:42:27,625 [myid:] - INFO  [main:ZooKeeperServerMain@122] - Starting server
-2020-12-23 23:42:27,643 [myid:] - INFO  [main:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@6b1274d2
-2020-12-23 23:42:27,646 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] - 
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
-2020-12-23 23:42:27,656 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
-2020-12-23 23:42:27,657 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
-2020-12-23 23:42:27,657 [myid:] - INFO  [main:ZookeeperBanner@42] - 
-2020-12-23 23:42:27,660 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.2--803c7f1a12f85978cb049af5e4ef23bd8b688715, built on 09/04/2020 12:44 GMT
-2020-12-23 23:42:27,660 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=localhost
-2020-12-23 23:42:27,660 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=15.0.1
-2020-12-23 23:42:27,660 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=AdoptOpenJDK
-2020-12-23 23:42:27,660 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
-2020-12-23 23:42:27,660 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../zookeeper-server/target/classes:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../build/classes:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../zookeeper-server/target/lib/*.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../build/lib/*.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/zookeeper-prometheus-metrics-3.6.2.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/zookeeper-jute-3.6.2.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/zookeeper-3.6.2.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/snappy-java-1.1.7.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/slf4j-log4j12-1.7.25.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/slf4j-api-1.7.25.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/simpleclient_servlet-0.6.0.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/simpleclient_hotspot-0.6.0.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/simpleclient_common-0.6.0.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/simpleclient-0.6.0.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-transport-native-unix-common-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-transport-native-epoll-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-transport-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-resolver-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-handler-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-common-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-codec-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/netty-buffer-4.1.50.Final.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/metrics-core-3.2.5.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/log4j-1.2.17.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/json-simple-1.1.1.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jline-2.14.6.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jetty-util-9.4.24.v20191120.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jetty-servlet-9.4.24.v20191120.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jetty-server-9.4.24.v20191120.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jetty-security-9.4.24.v20191120.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jetty-io-9.4.24.v20191120.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jetty-http-9.4.24.v20191120.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/javax.servlet-api-3.1.0.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jackson-databind-2.10.3.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jackson-core-2.10.3.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/jackson-annotations-2.10.3.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/commons-lang-2.6.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/commons-cli-1.2.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../lib/audience-annotations-0.5.0.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../zookeeper-*.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../zookeeper-server/src/main/resources/lib/*.jar:/Users/apple/udemy/distributedSystems/apache-zookeeper/bin/../conf:
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/j6/x6jh6c_d21l9qfz2hmgt9jgh0000gn/T/
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.16
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=apple
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/apple
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/apple/Udemy/DistributedSystems/apache-zookeeper/bin
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=245MB
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=1000MB
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=258MB
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:ZooKeeperServer@129] - zookeeper.enableEagerACLCheck = false
-2020-12-23 23:42:27,661 [myid:] - INFO  [main:ZooKeeperServer@137] - zookeeper.digest.enabled = true
-2020-12-23 23:42:27,663 [myid:] - INFO  [main:ZooKeeperServer@141] - zookeeper.closeSessionTxn.enabled = true
-2020-12-23 23:42:27,663 [myid:] - INFO  [main:ZooKeeperServer@1444] - zookeeper.flushDelay=0
-2020-12-23 23:42:27,664 [myid:] - INFO  [main:ZooKeeperServer@1453] - zookeeper.maxWriteQueuePollTime=0
-2020-12-23 23:42:27,664 [myid:] - INFO  [main:ZooKeeperServer@1462] - zookeeper.maxBatchSize=1000
-2020-12-23 23:42:27,664 [myid:] - INFO  [main:ZooKeeperServer@243] - zookeeper.intBufferStartingSizeBytes = 1024
-2020-12-23 23:42:27,665 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
-2020-12-23 23:42:27,666 [myid:] - INFO  [main:ZooKeeperServer@1256] - minSessionTimeout set to 4000
-2020-12-23 23:42:27,666 [myid:] - INFO  [main:ZooKeeperServer@1265] - maxSessionTimeout set to 40000
-2020-12-23 23:42:27,667 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
-2020-12-23 23:42:27,667 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
-2020-12-23 23:42:27,668 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
-2020-12-23 23:42:27,669 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
-2020-12-23 23:42:27,669 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
-2020-12-23 23:42:27,669 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
-2020-12-23 23:42:27,669 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
-2020-12-23 23:42:27,669 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
-2020-12-23 23:42:27,676 [myid:] - INFO  [main:ZooKeeperServer@1481] - The max bytes for all large requests are set to 104857600
-2020-12-23 23:42:27,677 [myid:] - INFO  [main:ZooKeeperServer@1495] - The large request threshold is set to -1
-2020-12-23 23:42:27,677 [myid:] - INFO  [main:ZooKeeperServer@339] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2 snapdir /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2
-2020-12-23 23:42:27,715 [myid:] - INFO  [main:Log@169] - Logging initialized @921ms to org.eclipse.jetty.util.log.Slf4jLog
-2020-12-23 23:42:27,809 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@1a482e36{/,null,UNAVAILABLE} contextPath ends with /*
-2020-12-23 23:42:27,809 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
-2020-12-23 23:42:27,840 [myid:] - INFO  [main:Server@359] - jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 15.0.1+9
-2020-12-23 23:42:27,871 [myid:] - INFO  [main:DefaultSessionIdManager@333] - DefaultSessionIdManager workerName=node0
-2020-12-23 23:42:27,871 [myid:] - INFO  [main:DefaultSessionIdManager@338] - No SessionScavenger set, using defaults
-2020-12-23 23:42:27,873 [myid:] - INFO  [main:HouseKeeper@140] - node0 Scavenging every 600000ms
-2020-12-23 23:42:27,876 [myid:] - WARN  [main:ConstraintSecurityHandler@757] - ServletContext@o.e.j.s.ServletContextHandler@1a482e36{/,null,STARTING} has uncovered http methods for path: /*
-2020-12-23 23:42:27,886 [myid:] - INFO  [main:ContextHandler@825] - Started o.e.j.s.ServletContextHandler@1a482e36{/,null,AVAILABLE}
-2020-12-23 23:42:27,899 [myid:] - INFO  [main:AbstractConnector@330] - Started ServerConnector@481a996b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
-2020-12-23 23:42:27,900 [myid:] - INFO  [main:Server@399] - Started @1105ms
-2020-12-23 23:42:27,900 [myid:] - INFO  [main:JettyAdminServer@182] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
-2020-12-23 23:42:27,904 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
-2020-12-23 23:42:27,905 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
-2020-12-23 23:42:27,906 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
-2020-12-23 23:42:27,907 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:2181
-2020-12-23 23:42:27,943 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
-2020-12-23 23:42:27,944 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
-2020-12-23 23:42:27,945 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
-2020-12-23 23:42:27,945 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
-2020-12-23 23:42:27,958 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
-2020-12-23 23:42:27,962 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2/snapshot.13
-2020-12-23 23:42:27,967 [myid:] - INFO  [main:DataTree@1730] - The digest in the snapshot has digest version of 2, , with zxid as 0x13, and digest value as 6362777569
-2020-12-23 23:42:27,985 [myid:] - INFO  [main:FileTxnSnapLog@363] - 2 txns loaded in 2 ms
-2020-12-23 23:42:27,986 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 41 ms, highest zxid is 0x15, digest is 6362777569
-2020-12-23 23:42:27,986 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x15 to /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2/snapshot.15
-2020-12-23 23:42:27,987 [myid:] - INFO  [main:ZooKeeperServer@529] - Snapshot taken in 1 ms
-2020-12-23 23:42:27,994 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
-2020-12-23 23:42:27,994 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@136] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
-2020-12-23 23:42:28,021 [myid:] - INFO  [main:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
-2020-12-23 23:42:28,022 [myid:] - INFO  [main:ZKAuditProvider@42] - ZooKeeper audit is disabled.
-2020-12-23 23:42:33,158 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x10005c6c5810000, timeout of 4000ms exceeded
-2020-12-23 23:42:33,160 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.16
-2020-12-24 12:34:50,831 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000a69b9230000, timeout of 4000ms exceeded
-2020-12-24 13:47:59,317 [myid:] - WARN  [NIOWorkerThread-11:NIOServerCnxn@364] - Unexpected exception
-EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:49965, session = 0x1000a69b9230001
+2020-12-26 12:07:44,684 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../conf/zoo.cfg
+2020-12-26 12:07:44,697 [myid:] - INFO  [main:QuorumPeerConfig@460] - clientPortAddress is 0.0.0.0:2181
+2020-12-26 12:07:44,697 [myid:] - INFO  [main:QuorumPeerConfig@464] - secureClientPort is not set
+2020-12-26 12:07:44,697 [myid:] - INFO  [main:QuorumPeerConfig@480] - observerMasterPort is not set
+2020-12-26 12:07:44,699 [myid:] - INFO  [main:QuorumPeerConfig@497] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2020-12-26 12:07:44,702 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2020-12-26 12:07:44,702 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2020-12-26 12:07:44,702 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2020-12-26 12:07:44,703 [myid:] - WARN  [main:QuorumPeerMain@138] - Either no config or no quorum defined in config, running in standalone mode
+2020-12-26 12:07:44,707 [myid:] - INFO  [main:ManagedUtil@44] - Log4j 1.2 jmx support found and enabled.
+2020-12-26 12:07:44,737 [myid:] - INFO  [main:QuorumPeerConfig@174] - Reading configuration from: /Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../conf/zoo.cfg
+2020-12-26 12:07:44,738 [myid:] - INFO  [main:QuorumPeerConfig@460] - clientPortAddress is 0.0.0.0:2181
+2020-12-26 12:07:44,738 [myid:] - INFO  [main:QuorumPeerConfig@464] - secureClientPort is not set
+2020-12-26 12:07:44,739 [myid:] - INFO  [main:QuorumPeerConfig@480] - observerMasterPort is not set
+2020-12-26 12:07:44,739 [myid:] - INFO  [main:QuorumPeerConfig@497] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2020-12-26 12:07:44,740 [myid:] - INFO  [main:ZooKeeperServerMain@122] - Starting server
+2020-12-26 12:07:44,778 [myid:] - INFO  [main:ServerMetrics@62] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@6b1274d2
+2020-12-26 12:07:44,785 [myid:] - INFO  [main:FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2020-12-26 12:07:44,793 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-12-26 12:07:44,793 [myid:] - INFO  [main:ZookeeperBanner@42] -   ______                  _                                          
+2020-12-26 12:07:44,793 [myid:] - INFO  [main:ZookeeperBanner@42] -  |___  /                 | |                                         
+2020-12-26 12:07:44,794 [myid:] - INFO  [main:ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2020-12-26 12:07:44,794 [myid:] - INFO  [main:ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2020-12-26 12:07:44,794 [myid:] - INFO  [main:ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2020-12-26 12:07:44,795 [myid:] - INFO  [main:ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2020-12-26 12:07:44,795 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               | |                     
+2020-12-26 12:07:44,795 [myid:] - INFO  [main:ZookeeperBanner@42] -                                               |_|                     
+2020-12-26 12:07:44,795 [myid:] - INFO  [main:ZookeeperBanner@42] - 
+2020-12-26 12:07:44,801 [myid:] - INFO  [main:Environment@98] - Server environment:zookeeper.version=3.6.2--803c7f1a12f85978cb049af5e4ef23bd8b688715, built on 09/04/2020 12:44 GMT
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:host.name=localhost
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.version=15.0.1
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.vendor=AdoptOpenJDK
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-15.jdk/Contents/Home
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.class.path=/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../zookeeper-server/target/classes:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../build/classes:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../zookeeper-server/target/lib/*.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../build/lib/*.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/zookeeper-prometheus-metrics-3.6.2.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/zookeeper-jute-3.6.2.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/zookeeper-3.6.2.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/snappy-java-1.1.7.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/slf4j-log4j12-1.7.25.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/slf4j-api-1.7.25.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/simpleclient_servlet-0.6.0.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/simpleclient_hotspot-0.6.0.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/simpleclient_common-0.6.0.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/simpleclient-0.6.0.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-transport-native-unix-common-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-transport-native-epoll-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-transport-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-resolver-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-handler-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-common-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-codec-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/netty-buffer-4.1.50.Final.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/metrics-core-3.2.5.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/log4j-1.2.17.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/json-simple-1.1.1.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jline-2.14.6.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jetty-util-9.4.24.v20191120.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jetty-servlet-9.4.24.v20191120.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jetty-server-9.4.24.v20191120.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jetty-security-9.4.24.v20191120.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jetty-io-9.4.24.v20191120.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jetty-http-9.4.24.v20191120.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/javax.servlet-api-3.1.0.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jackson-databind-2.10.3.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jackson-core-2.10.3.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/jackson-annotations-2.10.3.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/commons-lang-2.6.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/commons-cli-1.2.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../lib/audience-annotations-0.5.0.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../zookeeper-*.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../zookeeper-server/src/main/resources/lib/*.jar:/Users/apple/udemy/distributedsystems/apache-zookeeper/bin/../conf:
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.library.path=/Users/apple/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.io.tmpdir=/var/folders/j6/x6jh6c_d21l9qfz2hmgt9jgh0000gn/T/
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:java.compiler=<NA>
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.name=Mac OS X
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.arch=x86_64
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.version=10.16
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:user.name=apple
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:user.home=/Users/apple
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:user.dir=/Users/apple/Udemy/DistributedSystems/apache-zookeeper/bin
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.free=245MB
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.max=1000MB
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:Environment@98] - Server environment:os.memory.total=258MB
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:ZooKeeperServer@129] - zookeeper.enableEagerACLCheck = false
+2020-12-26 12:07:44,802 [myid:] - INFO  [main:ZooKeeperServer@137] - zookeeper.digest.enabled = true
+2020-12-26 12:07:44,803 [myid:] - INFO  [main:ZooKeeperServer@141] - zookeeper.closeSessionTxn.enabled = true
+2020-12-26 12:07:44,804 [myid:] - INFO  [main:ZooKeeperServer@1444] - zookeeper.flushDelay=0
+2020-12-26 12:07:44,804 [myid:] - INFO  [main:ZooKeeperServer@1453] - zookeeper.maxWriteQueuePollTime=0
+2020-12-26 12:07:44,805 [myid:] - INFO  [main:ZooKeeperServer@1462] - zookeeper.maxBatchSize=1000
+2020-12-26 12:07:44,805 [myid:] - INFO  [main:ZooKeeperServer@243] - zookeeper.intBufferStartingSizeBytes = 1024
+2020-12-26 12:07:44,806 [myid:] - INFO  [main:BlueThrottle@141] - Weighed connection throttling is disabled
+2020-12-26 12:07:44,807 [myid:] - INFO  [main:ZooKeeperServer@1256] - minSessionTimeout set to 4000
+2020-12-26 12:07:44,807 [myid:] - INFO  [main:ZooKeeperServer@1265] - maxSessionTimeout set to 40000
+2020-12-26 12:07:44,808 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-12-26 12:07:44,808 [myid:] - INFO  [main:ResponseCache@45] - Response cache size is initialized with value 400.
+2020-12-26 12:07:44,809 [myid:] - INFO  [main:RequestPathMetricsCollector@111] - zookeeper.pathStats.slotCapacity = 60
+2020-12-26 12:07:44,809 [myid:] - INFO  [main:RequestPathMetricsCollector@112] - zookeeper.pathStats.slotDuration = 15
+2020-12-26 12:07:44,809 [myid:] - INFO  [main:RequestPathMetricsCollector@113] - zookeeper.pathStats.maxDepth = 6
+2020-12-26 12:07:44,810 [myid:] - INFO  [main:RequestPathMetricsCollector@114] - zookeeper.pathStats.initialDelay = 5
+2020-12-26 12:07:44,810 [myid:] - INFO  [main:RequestPathMetricsCollector@115] - zookeeper.pathStats.delay = 5
+2020-12-26 12:07:44,810 [myid:] - INFO  [main:RequestPathMetricsCollector@116] - zookeeper.pathStats.enabled = false
+2020-12-26 12:07:44,812 [myid:] - INFO  [main:ZooKeeperServer@1481] - The max bytes for all large requests are set to 104857600
+2020-12-26 12:07:44,812 [myid:] - INFO  [main:ZooKeeperServer@1495] - The large request threshold is set to -1
+2020-12-26 12:07:44,812 [myid:] - INFO  [main:ZooKeeperServer@339] - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 clientPortListenBacklog -1 datadir /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2 snapdir /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2
+2020-12-26 12:07:44,857 [myid:] - INFO  [main:Log@169] - Logging initialized @1121ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-12-26 12:07:45,012 [myid:] - WARN  [main:ContextHandler@1520] - o.e.j.s.ServletContextHandler@1a482e36{/,null,UNAVAILABLE} contextPath ends with /*
+2020-12-26 12:07:45,012 [myid:] - WARN  [main:ContextHandler@1531] - Empty contextPath
+2020-12-26 12:07:45,061 [myid:] - INFO  [main:Server@359] - jetty-9.4.24.v20191120; built: 2019-11-20T21:37:49.771Z; git: 363d5f2df3a8a28de40604320230664b9c793c16; jvm 15.0.1+9
+2020-12-26 12:07:45,091 [myid:] - INFO  [main:DefaultSessionIdManager@333] - DefaultSessionIdManager workerName=node0
+2020-12-26 12:07:45,091 [myid:] - INFO  [main:DefaultSessionIdManager@338] - No SessionScavenger set, using defaults
+2020-12-26 12:07:45,094 [myid:] - INFO  [main:HouseKeeper@140] - node0 Scavenging every 660000ms
+2020-12-26 12:07:45,097 [myid:] - WARN  [main:ConstraintSecurityHandler@757] - ServletContext@o.e.j.s.ServletContextHandler@1a482e36{/,null,STARTING} has uncovered http methods for path: /*
+2020-12-26 12:07:45,121 [myid:] - INFO  [main:ContextHandler@825] - Started o.e.j.s.ServletContextHandler@1a482e36{/,null,AVAILABLE}
+2020-12-26 12:07:45,150 [myid:] - INFO  [main:AbstractConnector@330] - Started ServerConnector@481a996b{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2020-12-26 12:07:45,152 [myid:] - INFO  [main:Server@399] - Started @1416ms
+2020-12-26 12:07:45,152 [myid:] - INFO  [main:JettyAdminServer@182] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2020-12-26 12:07:45,159 [myid:] - INFO  [main:ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2020-12-26 12:07:45,160 [myid:] - WARN  [main:ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2020-12-26 12:07:45,162 [myid:] - INFO  [main:NIOServerCnxnFactory@666] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 16 worker threads, and 64 kB direct buffers.
+2020-12-26 12:07:45,165 [myid:] - INFO  [main:NIOServerCnxnFactory@674] - binding to port 0.0.0.0/0.0.0.0:2181
+2020-12-26 12:07:45,206 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-12-26 12:07:45,207 [myid:] - INFO  [main:WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2020-12-26 12:07:45,208 [myid:] - INFO  [main:ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2020-12-26 12:07:45,208 [myid:] - INFO  [main:ZKDatabase@152] - zookeeper.commitLogCount=500
+2020-12-26 12:07:45,218 [myid:] - INFO  [main:SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2020-12-26 12:07:45,220 [myid:] - INFO  [main:FileSnap@85] - Reading snapshot /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2/snapshot.15
+2020-12-26 12:07:45,227 [myid:] - INFO  [main:DataTree@1730] - The digest in the snapshot has digest version of 2, , with zxid as 0x15, and digest value as 6362777569
+2020-12-26 12:07:45,296 [myid:] - INFO  [main:ZKAuditProvider@42] - ZooKeeper audit is disabled.
+2020-12-26 12:07:45,309 [myid:] - INFO  [main:FileTxnSnapLog@363] - 27 txns loaded in 34 ms
+2020-12-26 12:07:45,309 [myid:] - INFO  [main:ZKDatabase@289] - Snapshot loaded in 102 ms, highest zxid is 0x30, digest is 6471445316
+2020-12-26 12:07:45,310 [myid:] - INFO  [main:FileTxnSnapLog@470] - Snapshotting: 0x30 to /Users/apple/Udemy/DistributedSystems/apache-zookeeper/logs/version-2/snapshot.30
+2020-12-26 12:07:45,310 [myid:] - INFO  [main:ZooKeeperServer@529] - Snapshot taken in 1 ms
+2020-12-26 12:07:45,317 [myid:] - INFO  [main:RequestThrottler@74] - zookeeper.request_throttler.shutdownTimeout = 10000
+2020-12-26 12:07:45,317 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::PrepRequestProcessor@136] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
+2020-12-26 12:07:45,344 [myid:] - INFO  [main:ContainerManager@83] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2020-12-26 12:07:49,431 [myid:] - INFO  [SyncThread:0:FileTxnLog@284] - Creating new log file: log.31
+2020-12-26 12:08:17,204 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000a69b9230008, timeout of 30000ms exceeded
+2020-12-26 12:12:18,162 [myid:] - WARN  [NIOWorkerThread-9:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /[0:0:0:0:0:0:0:1]:51905, session = 0x1000519c1dd0001
 	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
 	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
 	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
@@ -108,9 +107,9 @@ EndOfStreamException: Unable to read additional data from client, it probably cl
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2020-12-24 13:48:03,041 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000a69b9230001, timeout of 4000ms exceeded
-2020-12-24 13:49:33,755 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@364] - Unexpected exception
-EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:50140, session = 0x1000a69b9230002
+2020-12-26 12:12:23,221 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000519c1dd0001, timeout of 4000ms exceeded
+2020-12-26 12:12:32,080 [myid:] - WARN  [NIOWorkerThread-15:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /[0:0:0:0:0:0:0:1]:51906, session = 0x1000519c1dd0002
 	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
 	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
 	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
@@ -118,9 +117,9 @@ EndOfStreamException: Unable to read additional data from client, it probably cl
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2020-12-24 13:49:37,038 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000a69b9230002, timeout of 4000ms exceeded
-2020-12-24 13:50:24,128 [myid:] - WARN  [NIOWorkerThread-11:NIOServerCnxn@364] - Unexpected exception
-EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:51587, session = 0x1000a69b9230004
+2020-12-26 12:12:37,221 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000519c1dd0002, timeout of 4000ms exceeded
+2020-12-26 12:12:42,369 [myid:] - WARN  [NIOWorkerThread-3:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:51907, session = 0x1000519c1dd0003
 	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
 	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
 	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
@@ -128,8 +127,9 @@ EndOfStreamException: Unable to read additional data from client, it probably cl
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2020-12-24 13:50:27,523 [myid:] - WARN  [NIOWorkerThread-16:NIOServerCnxn@364] - Unexpected exception
-EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /[0:0:0:0:0:0:0:1]:51570, session = 0x1000a69b9230003
+2020-12-26 12:12:47,219 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000519c1dd0003, timeout of 4000ms exceeded
+2020-12-26 12:15:32,033 [myid:] - WARN  [NIOWorkerThread-7:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /[0:0:0:0:0:0:0:1]:51961, session = 0x1000519c1dd0007
 	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
 	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
 	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
@@ -137,5 +137,24 @@ EndOfStreamException: Unable to read additional data from client, it probably cl
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-2020-12-24 13:50:29,033 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000a69b9230004, timeout of 4000ms exceeded
-2020-12-24 13:50:31,036 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000a69b9230003, timeout of 4000ms exceeded
+2020-12-26 12:15:37,222 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000519c1dd0007, timeout of 4000ms exceeded
+2020-12-26 12:16:11,702 [myid:] - WARN  [NIOWorkerThread-16:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /127.0.0.1:51955, session = 0x1000519c1dd0005
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-26 12:16:15,222 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000519c1dd0005, timeout of 4000ms exceeded
+2020-12-26 12:18:00,222 [myid:] - WARN  [NIOWorkerThread-2:NIOServerCnxn@364] - Unexpected exception
+EndOfStreamException: Unable to read additional data from client, it probably closed the socket: address = /[0:0:0:0:0:0:0:1]:51903, session = 0x1000519c1dd0000
+	at org.apache.zookeeper.server.NIOServerCnxn.handleFailedRead(NIOServerCnxn.java:163)
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:326)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory$IOWorkRequest.doWork(NIOServerCnxnFactory.java:522)
+	at org.apache.zookeeper.server.WorkerService$ScheduledWorkRequest.run(WorkerService.java:154)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-12-26 12:18:31,218 [myid:] - INFO  [SessionTracker:ZooKeeperServer@610] - Expiring session 0x1000519c1dd0000, timeout of 30000ms exceeded

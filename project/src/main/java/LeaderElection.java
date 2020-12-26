@@ -1,4 +1,5 @@
 import org.apache.zookeeper.*;
+import org.apache.zookeeper.data.Stat;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -25,7 +26,7 @@ public class LeaderElection implements Watcher {
 
         // volunteer as a leader and elect a leader.
         leaderElection.volunteerForLeadership();
-        leaderElection.electLeader();
+        leaderElection.reelectLeader();
 
         leaderElection.run();
         leaderElection.close();
@@ -43,21 +44,42 @@ public class LeaderElection implements Watcher {
         this.currentZnodeName = znodeFullPath.replace("/election/", "");
     }
 
-    public void electLeader() throws KeeperException, InterruptedException {
-        // call getChildren() to get a list of the children z-node of the election z-node
-        List<String> children = zooKeeper.getChildren(ELECTION_NAMESPACE, false);
-        // sort the list
-        Collections.sort(children);
-        // get the child with the smallest index. This will be the leader among all the other z-nodes
-        String smallestChild = children.get(0);
-        // determine whether the currentZnodeName is the smallest one.
-        if (smallestChild.equals(currentZnodeName)) {
-            System.out.println("I am the leader");
-            return;
+    public void reelectLeader() throws KeeperException, InterruptedException {
+        // local variables
+        Stat predecessorStat = null;
+        String predecessorZnodeName = "";
+
+        // need a while loop since the znode that we are interested in watching in the
+        // .exist() method may be already gone before we call it.
+        // This is the dynamic nature of the cluster.
+        while (predecessorStat == null) {
+            // call getChildren() to get a list of the children z-node of the election z-node
+            List<String> children = zooKeeper.getChildren(ELECTION_NAMESPACE, false);
+            // sort the list
+            Collections.sort(children);
+            // get the child with the smallest index. This will be the leader among all the other z-nodes
+            String smallestChild = children.get(0);
+            // determine whether the currentZnodeName is the smallest one.
+            if (smallestChild.equals(currentZnodeName)) {
+                System.out.println("I am the leader");
+                return;
+            }
+            // more actions to take when the current node is not a leader
+            else {
+                System.out.println("I am not the leader");
+                // find the previous predecessor znode that the current node needs to watch for failures.
+                int predecessorIndex = Collections.binarySearch(children, currentZnodeName) - 1;
+                // get the name of the predecessor name
+                predecessorZnodeName = children.get(predecessorIndex);
+                // fetch the stats of the predecessor node.
+                // a 'watch' object is the something we use to get notified when the predecessor node gets deleted
+                predecessorStat = zooKeeper.exists(ELECTION_NAMESPACE + "/" + predecessorZnodeName, this);
+            }
         }
 
-        System.out.println("I am not the leader, " + smallestChild + " is the leader");
-    }
+        System.out.println("Watching znode " + predecessorZnodeName);
+        System.out.println();
+        }
 
     public void connectToZookeeper() throws IOException {
         this.zooKeeper = new ZooKeeper(ZOOKEEPER_ADDRESS, SESSION_TIMEOUT, this);
@@ -97,6 +119,12 @@ public class LeaderElection implements Watcher {
                         // wake up the main thread: .notifyAll() on the zookeeper object
                         zooKeeper.notifyAll();
                     }
+                }
+            case NodeDeleted:
+                try {
+                    reelectLeader();
+                } catch (InterruptedException e) {
+                } catch (KeeperException e) {
                 }
         }
     }
